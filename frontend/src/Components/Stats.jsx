@@ -31,7 +31,7 @@ export default function Stats() {
 
 
 
-  const fullLink = `${import.meta.env.VITE_BASE_URL}/${code}`;
+  const fullLink = `https://tinlylink.vercel.app//${code}`;
     
   return (
     <>
