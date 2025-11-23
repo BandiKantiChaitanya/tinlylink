@@ -30,8 +30,7 @@ export default function Stats() {
 
 
 
-
-  const fullLink = `https://tinlylink.vercel.app//${code}`;
+  const fullLink = `https://tinlylink.vercel.app/${code}`;
     
   return (
     <>

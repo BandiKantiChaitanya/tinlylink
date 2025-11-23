@@ -3,7 +3,7 @@
 A simple URL shortener application (similar to Bitly) built with **React (Vite)** frontend and **Node.js + Express + MongoDB** backend. Users can shorten URLs, view statistics, and manage their links.
 
 ---
-### [Live Demo](https:/ww)
+### [Live Demo](https://tinlylink.vercel.app)
 
 ---
 
