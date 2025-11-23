@@ -61,7 +61,7 @@ export default function Home() {
         {loading ? (
           <Loader />
         ) : links.length === 0 ? (
-          <p className="text-muted mt-4">No links created yet.</p>
+          <p className="text-muted mt-4">Links are not available yet. Please wait a moment or refresh the page while the backend finishes loading.</p>
         ) : (
           <div className="table-responsive">
             <table className="table table-striped table-hover align-middle">
