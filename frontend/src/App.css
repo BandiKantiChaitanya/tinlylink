@@ -1,0 +1,53 @@
+
+
+.navbar .nav-link {
+  position: relative !important;
+  color: #ffffff !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding-bottom: 4px;
+}
+
+.navbar .nav-link.active::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  height: 3px;
+  width: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(236, 10, 116);
+  border-radius: 2px;
+}
+
+.navbar .nav-link.btn,
+.navbar .btn-link.nav-link {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.navbar .nav-link:hover {
+  color: #72dbc5 !important;
+}
+
+.navbar .nav-link {
+  position: relative !important;
+}
+
+.url-column {
+  max-width: 250px;   /* limits width of URL column */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+tr td:first-child a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+tr td:nth-child(2) a {
+    text-decoration: none;
+    color: black;
+}
